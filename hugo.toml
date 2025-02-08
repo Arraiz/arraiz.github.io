@@ -1,6 +1,36 @@
 baseURL = "https://arraiz.me"
 title = "arraiz.me"
 theme = "hugo-theme-m10c"
+defaultContentLanguage = "en"
+
+# Language Configuration
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    title = "arraiz.me"
+    weight = 1
+    [languages.en.params]
+      author = "Mikel Diez (arraiz)"
+      description = "Hackity Hacks"
+
+  [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    title = "arraiz.me"
+    weight = 2
+    [languages.es.params]
+      author = "Mikel Diez (arraiz)"
+      description = "Hackity Hacks"
+
+  [languages.eu]
+    contentDir = "content/eu"
+    languageName = "Euskara"
+    title = "arraiz.me"
+    weight = 3
+    [languages.eu.params]
+      author = "Mikel Diez (arraiz)"
+      description = "Hackity Hacks"
 
 [pagination]
   pagerSize = 8

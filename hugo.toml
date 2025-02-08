@@ -1,4 +1,4 @@
-baseURL = "https://arraiz.me"
+baseURL = "https://arraiz.github.io/"
 title = "arraiz.me"
 theme = "hugo-theme-m10c"
 defaultContentLanguage = "en"

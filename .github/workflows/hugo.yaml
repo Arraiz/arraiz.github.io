@@ -2,10 +2,10 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Only run on pushes to main branch
+  # Only run on pushes to master branch
   push:
     branches:
-      - main
+      - master
 
 # Sets permissions of the GITHUB_TOKEN
 permissions:
